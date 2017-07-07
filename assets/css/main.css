@@ -1,0 +1,556 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/*
+ * -- BASE STYLES --
+ */
+body {
+  background: #FDFDFD;
+  color: #15204e;
+  font-family: "Open sans", sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  height: 100%;
+}
+
+.secondary-font {
+  font-family: 'Proxima Reg', Helvetica, Arial, sans-serif;
+}
+
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2 {
+  text-shadow: 0 1px black;
+}
+
+footer {
+  background: #222222;
+  color: #BDBDBD;
+  width: 100%;
+}  footer.fixed {
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+  }
+
+
+/*
+ * -- LAYOUT STYLES --
+ */
+.xl-top-margin {
+  margin-top: 2em;
+}
+
+.m-box {
+  padding: .5em;
+}
+
+.l-box {
+  padding: 1em;
+}
+
+.l-box-sides {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.xl-box {
+  padding: 2em;
+}
+
+.xl-box-sides {
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.is-middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.is-center {
+  text-align: center;
+}
+
+.is-right {
+  text-align: right;
+}
+
+.is-left {
+  text-align: left;
+}
+
+.full-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.large-font {
+  font-size: 1.5em;
+  line-height: 1.75em;
+}
+
+.slim-font {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+/*
+ * -- FORM STYLES --
+ */
+.pure-form label {
+  margin: 1em 0 0;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.pure-form input[type],
+.pure-form textarea {
+  border: 2px solid #ddd;
+  border-radius: 0;
+  box-shadow: none;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.pure-form textarea {
+  height: 7.5em;
+}
+
+
+/*
+ * -- BUTTON STYLES --
+ */
+.pure-button {
+  background-color: #15204e;
+  color: white;
+  padding: 0.5em 2em;
+  border: 2px solid #ccc;
+}
+
+a.pure-button-primary {
+  background: white;
+  color: #15204e;
+  font-size: 120%;
+}
+
+
+/*
+ * -- MENU STYLES --
+ */
+#menu {
+  padding-right: 1em;
+  background-color: rgba(0,0,0,.9); 
+  box-shadow: 0 1px 1px #111;
+  text-shadow: 0 1px black;
+  -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -o-transition: all .5s linear;
+  transition: all .5s linear;
+}
+#menu.transparent {
+  background-color: rgba(0,0,0,0); 
+  box-shadow: 0 1px 1px rgba(0,0,0,0);
+}
+
+  #menu .pure-menu-link {
+    color: white;
+    padding: .75em .5em;
+  }
+  #menu a.pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    padding-top: .625em;
+    font-size: 1.5em;
+  }
+
+  #menu .pure-menu-selected a {
+    color: white;
+  }
+
+  #menu li a {
+    background: none;
+    -webkit-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    transition: all 100ms linear;
+  }
+
+.pure-menu.pure-menu-fixed {
+  border-bottom: none;
+  z-index: 10;
+}
+
+.collapsible-menu {
+  -webkit-font-smoothing: antialiased;
+  height: 3.25em;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+.menu-links {
+  text-align: right;
+}
+
+.menu-collapse-toggle .bar {
+  background-color: white;
+  display: block;
+  width: 20px;
+  height: 4px;
+  border-radius: 100px;
+  margin-bottom: 3px;
+}
+
+
+/*
+ * -- LANDING STYLES --
+ */
+.landing {
+  margin: auto;
+  text-align: center;
+  z-index: 0;
+}
+
+.headline-container {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 14em;
+  padding-bottom: 1em;
+}
+
+.landing-head {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  line-height: 1em;
+  /*text-transform: uppercase;*/
+}
+
+.landing-subhead {
+  color: white;
+  font-size: 1.25em;
+  letter-spacing: 0.05em;
+}
+
+.landing-background {
+  background-image: url(/assets/img/bg_still.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -200;
+}
+
+.blue {
+  background-color: #15204e;
+  color: #eee;
+}
+
+.texture {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.5);
+}
+.texture.blue {
+  background-image: url(/assets/img/texture_blue.jpg);
+}
+.texture.grey {
+  background-color: #DDDDDD;
+  background-image: url(/assets/img/texture_grey.jpg);
+}
+
+.overlay {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .5;
+  z-index: -10;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  display: none;
+}
+
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+  
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+  
+  /* Center the video */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.arrows {
+  width: 40px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 20px;
+}
+
+.arrows path {
+  stroke: #ff6600;
+  fill: transparent;
+  stroke-width: 1px;  
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
+
+@-webkit-keyframes arrow {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
+
+.arrows path.a1 {
+  animation-delay:-1s;
+  -webkit-animation-delay:-1s;
+}
+
+.arrows path.a2 {
+  animation-delay:-0.5s;
+  -webkit-animation-delay:-0.5s;
+}
+
+.arrows path.a3 { 
+  animation-delay:0s;
+  -webkit-animation-delay:0s;
+}
+
+
+/*
+ * -- CONTENT STYLES --
+ */
+#particles-js, #particles-js canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  padding: 1em 1em 3em;
+}
+
+.content-head {
+  font-size: 250%;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+}
+.full-page .content-head {
+  margin-top: 0;
+}
+.blue .content-head {
+  color: white;
+}
+
+.content-subhead i {
+  margin-right: .5em;
+}
+.content-subhead img {
+  display: block;
+  height: 7.5em;
+  margin:auto;
+  margin-bottom: .5em;
+}
+
+/*
+ * -- TESTIMONIALS / CASES --
+ */
+
+#cases input[type="radio"] {
+  display: none;
+}
+#cases label {
+  background-color: #15204e;
+  display: block;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -o-transition: all 100ms linear;
+  transition: all 100ms linear;
+}
+#cases .slide {
+  display: none;
+}
+#cases .slide h3::after {
+  display: block;
+  width: 2em;
+  content: "";
+  border: 1px solid black;
+}
+#cases #first:checked ~ div label.first {
+  opacity: .75;
+}
+#cases #second:checked ~ div label.second {
+  opacity: .75;
+}
+#cases #third:checked ~ div label.third {
+  opacity: .75;
+}
+#cases #first:checked ~ div.first {
+  display: block;
+}
+#cases #second:checked ~ div.second {
+  display: block;
+}
+#cases #third:checked ~ div.third {
+  display: block;
+}
+
+
+/*
+ * -- MOBILE (AND DOWN) MEDIA QUERIES --
+ */
+ @media (max-width: 47.999em) {
+
+   #menu li a {
+     border-left: .25em solid transparent;
+   }
+
+   #menu li a:hover {
+     border-left: .25em solid #ff6600;
+   }
+
+   .menu-links {
+     text-align: left;
+   } .menu-links .pure-menu-item {
+     display: list-item;
+   }
+
+   .collapsible-menu.open {
+     height: 14em;
+   }
+
+ }
+
+
+/*
+ * -- TABLET (AND UP) MEDIA QUERIES --
+ */
+@media (min-width: 35.5em) {
+
+  .sm-hide {
+    display: none;
+  }
+
+}
+
+@media (min-width: 48em) {
+
+  body {
+    font-size: 16px;
+  }
+
+  /* We can align the menu header to the left, but float the
+  menu items to the right. */
+  #menu {
+    text-align: left;
+  }
+    #menu ul {
+      float: right;
+    }
+
+    #menu li a {
+      border-top: .25em solid transparent;
+    }
+    #menu li a:hover {
+      border-top: .25em solid #ff6600;
+    }
+
+  .landing-head {
+    font-size: 250%;
+  }
+
+  .xl-box-sides {
+    padding-right: 4em;
+    padding-left: 4em;
+  }
+
+  .md-hide {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 64em) {
+
+  .lg-hide {
+    display: none;
+  }
+
+}
+
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ */
+@media (min-width: 78em) {
+
+  .landing-head {
+    font-size: 300%;
+  }
+
+  .video-container {
+    display: block;
+  }
+
+}
+
+
+@media screen and (min-width: 80em) {
+
+  .xl-hide {
+    display: none;
+  }
+
+}
