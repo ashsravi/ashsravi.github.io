@@ -1,0 +1,21 @@
+<svg class="components" width="1625px" height="915px" viewBox="0 0 1625 915" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+  <title>components</title>
+  <desc>Created with Sketch.</desc>
+  <defs></defs>
+  <g id="Logs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="components">
+          <polyline id="Path-2" stroke="#DBDBDB" stroke-linecap="round" stroke-dasharray="2,4" points="468 95.5 148 226 245 459.5 60.5 578 238.5 694.5 979.5 42"></polyline>
+          <polyline id="Path-3" stroke="#DBDBDB" stroke-linecap="round" stroke-dasharray="2,4" points="467.5 96.5 1362.5 571 979.5 43.5 1468 265 1362.5 571 149 224.5 62.5 575 1514 846.5 1363.5 574 244.5 460 240.5 692.5"></polyline>
+          <circle id="Oval-2" stroke="#F1F1F1" stroke-width="2" fill="#FFFFFF" cx="151" cy="225" r="32"></circle>
+          <circle id="Oval-2" stroke="#E2E2E2" stroke-width="2" fill="#FFFFFF" cx="468" cy="98" r="18"></circle>
+          <circle id="Oval-2" stroke="#F1F1F1" stroke-width="2" fill="#FFFFFF" cx="1363.5" cy="570.5" r="41.5"></circle>
+          <circle id="Oval-2" stroke="#F1F1F1" stroke-width="2" fill="#FFFFFF" cx="240.5" cy="689.5" r="41.5"></circle>
+          <circle id="Oval-2" stroke="#E2E2E2" stroke-width="2" fill="#FFFFFF" cx="1511" cy="844" r="20"></circle>
+          <circle id="Oval-2" stroke="#D5D5D5" stroke-width="2" fill="#FFFFFF" cx="980.5" cy="44.5" r="41.5"></circle>
+          <circle id="Oval-2" stroke="#D5D5D5" stroke-width="2" fill="#FFFFFF" cx="63" cy="574" r="41"></circle>
+          <circle id="Oval-2" stroke="#E2E2E2" stroke-width="2" fill="#FFFFFF" cx="244" cy="460" r="17"></circle>
+          <circle id="Oval-2" stroke="#E2E2E2" stroke-width="2" fill="#FFFFFF" cx="1467" cy="263" r="41"></circle>
+      </g>
+  </g>
+</svg>

@@ -66,6 +66,10 @@ footer {
   padding: 2em;
 }
 
+.xxl-box {
+  padding: 4em;
+}
+
 .xl-box-sides {
   padding-right: 2em;
   padding-left: 2em;
@@ -401,6 +405,18 @@ a.pure-button-primary {
   height: 7.5em;
   margin:auto;
   margin-bottom: .5em;
+}
+
+
+/*
+ * -- MISSION --
+ */
+
+#mission article div {
+  background-image: url(/assets/img/nodes.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 /*
