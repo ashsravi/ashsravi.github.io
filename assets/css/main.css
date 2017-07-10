@@ -330,7 +330,7 @@ a.pure-button-primary {
 }
 
 .arrows path {
-  stroke: #ff6600;
+  stroke: #DDDDDD;
   fill: transparent;
   stroke-width: 1px;  
   animation: arrow 2s infinite;
@@ -459,7 +459,7 @@ a.pure-button-primary {
    }
 
    #menu li a:hover {
-     border-left: .25em solid #ff6600;
+     border-left: .25em solid #DDDDDD;
    }
 
    .menu-links {
@@ -505,7 +505,7 @@ a.pure-button-primary {
       border-top: .25em solid transparent;
     }
     #menu li a:hover {
-      border-top: .25em solid #ff6600;
+      border-top: .25em solid #DDDDDD;
     }
 
   .landing-head {
