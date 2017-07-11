@@ -174,11 +174,15 @@ a.pure-button-primary {
     color: white;
     padding: .75em .5em;
   }
+  #menu .pure-menu-heading img {
+    height: 1em;
+    width: auto;
+  }
   #menu a.pure-menu-heading {
     color: white;
     font-weight: 400;
-    padding-top: .625em;
     font-size: 1.5em;
+    /*text-transform: none;*/
   }
 
   #menu .pure-menu-selected a {
@@ -200,7 +204,7 @@ a.pure-button-primary {
 
 .collapsible-menu {
   -webkit-font-smoothing: antialiased;
-  height: 3.25em;
+  height: 3.75em;
   overflow: hidden;
   -webkit-transition: height 0.5s;
   -moz-transition: height 0.5s;
@@ -294,7 +298,7 @@ a.pure-button-primary {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: .5;
+  opacity: .65;
   z-index: -10;
 }
 
@@ -322,6 +326,16 @@ a.pure-button-primary {
   top: 0;
   left: 0;
   z-index: -100;
+}
+
+a.scroll-down {
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 20px;
+} a.scroll-down img {
+  width: 40px;
+  height: 40px;
 }
 
 .arrows {
@@ -381,7 +395,7 @@ a.pure-button-primary {
 }
 
 .content {
-  padding: 1em 1em 3em;
+  padding: 2em 1em;
 }
 
 .content-head {
@@ -419,49 +433,18 @@ a.pure-button-primary {
   background-repeat: repeat;
 }
 
+
 /*
- * -- TESTIMONIALS / CASES --
+ * -- USE CASES --
  */
 
-#cases input[type="radio"] {
-  display: none;
-}
-#cases label {
-  background-color: #15204e;
+#uses h3::after {
+  margin-top: .25em;
+  margin-left: 37.5%;
   display: block;
-  color: white;
-  cursor: pointer;
-  -webkit-transition: all 100ms linear;
-  -moz-transition: all 100ms linear;
-  -o-transition: all 100ms linear;
-  transition: all 100ms linear;
-}
-#cases .slide {
-  display: none;
-}
-#cases .slide h3::after {
-  display: block;
-  width: 2em;
+  width: 25%;
   content: "";
   border: 1px solid black;
-}
-#cases #first:checked ~ div label.first {
-  opacity: .75;
-}
-#cases #second:checked ~ div label.second {
-  opacity: .75;
-}
-#cases #third:checked ~ div label.third {
-  opacity: .75;
-}
-#cases #first:checked ~ div.first {
-  display: block;
-}
-#cases #second:checked ~ div.second {
-  display: block;
-}
-#cases #third:checked ~ div.third {
-  display: block;
 }
 
 
