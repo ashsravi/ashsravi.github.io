@@ -205,7 +205,7 @@ a.pure-button-primary {
 
 .collapsible-menu {
   -webkit-font-smoothing: antialiased;
-  height: 3.75em;
+  height: 3.25em;
   overflow: hidden;
   -webkit-transition: height 0.5s;
   -moz-transition: height 0.5s;
@@ -472,7 +472,7 @@ a.scroll-down {
    }
 
    .collapsible-menu.open {
-     height: 14em;
+     height: 10em;
    }
 
  }
