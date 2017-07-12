@@ -125,6 +125,7 @@ footer {
 .pure-form textarea {
   border: 2px solid #ddd;
   border-radius: 0;
+  color: black;
   box-shadow: none;
   width: 100%;
   margin-bottom: 1em;
@@ -250,9 +251,8 @@ a.pure-button-primary {
   color: white;
   margin-bottom: 0;
   letter-spacing: 0.05em;
-  font-weight: 100;
   line-height: 1em;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
 }
 
 .landing-subhead {
@@ -421,6 +421,10 @@ a.scroll-down {
   margin-bottom: .5em;
 }
 
+#uses .content-subhead img {
+  height: 5em;
+}
+
 
 /*
  * -- MISSION --
@@ -444,7 +448,7 @@ a.scroll-down {
   display: block;
   width: 25%;
   content: "";
-  border: 1px solid black;
+  border: 1px solid #DDDDDD;
 }
 
 
