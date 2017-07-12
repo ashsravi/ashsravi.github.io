@@ -8,7 +8,9 @@
 /*
  * -- BASE STYLES --
  */
-body {
+html,
+body,
+main {
   background: #FDFDFD;
   color: #15204e;
   font-family: "Open sans", sans-serif;
@@ -40,7 +42,6 @@ footer {
     bottom: 0;
     z-index: 10;
   }
-
 
 /*
  * -- LAYOUT STYLES --
@@ -94,8 +95,9 @@ footer {
 }
 
 .full-page {
-  height: 100vh;
-  width: 100vw;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .large-font {
@@ -540,7 +542,11 @@ a.scroll-down {
 @media (min-width: 78em) {
 
   .landing-head {
-    font-size: 300%;
+    font-size: 400%;
+  }
+
+  .landing-subhead {
+    font-size: 200%;
   }
 
   .video-container {
